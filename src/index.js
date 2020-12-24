@@ -1,13 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
+import {App} from './App';
 import reportWebVitals from './reportWebVitals';
+import { Welcome } from "./hello";
+
 
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
+  <App name="Ярослав" />,
   document.getElementById('root')
 );
 
